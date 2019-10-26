@@ -1,0 +1,11 @@
+cd ..
+cd ..
+cd ..
+ls
+lein run
+git status
+git add .
+git status
+git ci -m'my_divine_cheese_code'
+git remote -v
+git push
