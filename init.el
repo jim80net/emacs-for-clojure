@@ -149,7 +149,10 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (bury-successful-compilation cider-decompile magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell))))
+    (markdown-preview-mode markdown-mode bury-successful-compilation cider-decompile magit tagedit rainbow-delimiters projectile smex ido-completing-read+ cider clojure-mode-extra-font-locking clojure-mode paredit exec-path-from-shell)))
+ '(safe-local-variable-values
+   (quote
+    ((cider-boot-parameters . "cider repl -s ...others... wait")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
